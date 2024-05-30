@@ -1,0 +1,47 @@
+/* Custom styling for the dropdown toggle */
+.dropdown-toggle2 {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #3abb69 !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+  }
+  
+  /* Custom styling for the dropdown menu */
+  .dropdown-menu {
+    background-color: #eff7ea;
+    border: 1px solid #3abb69 !important;
+    border-top: none;
+    height: 0px !important;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .Card-animation{
+    cursor: pointer !important;
+    border: 2px solid #0e5224 !important;
+    margin:10px;
+    color: #0e5224 !important;
+    size: 1.2em !important;
+  }
+  .Card-image{
+    height: 200px !important;
+    border-radius: 100% !important ;
+  }
+  
+  .Card-animation:hover {
+    box-shadow: 0px 12px 30px 0px rgb(38, 37, 37) !important;
+    transform:scale(1.1,1.1) !important; /* Move the button upwards on hover */
+    transition: all 800ms;
+  
+  }
+
+  /* Custom styling for the dropdown menu items */
+  .custom .dropdown-item {
+    color: #333;
+  }
+  
+  /* Custom styling for the dropdown menu items on hover */
+  .custom .dropdown-item:hover {
+    background-color: #3abb69;
+  }

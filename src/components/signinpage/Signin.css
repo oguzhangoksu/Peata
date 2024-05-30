@@ -1,0 +1,67 @@
+.signin-content{
+    position: relative;
+    z-index: 1000;
+    padding: 100px 20px !important;
+    margin:50px 0px !important;
+
+
+}
+
+/* Genel stil ayarları */
+
+  /* Formun kendisi için stil */
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0auto;
+    
+  }
+
+  
+  /* Başlık için stil */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input alanları için stil */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Buton için stil */
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Linkler için stil */
+  .link-text {
+    text-align: center;
+    display: block; /* veya inline-block, tercihe bağlı */
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .link-text:hover {
+    text-decoration: underline;
+  }
+  

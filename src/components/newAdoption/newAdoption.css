@@ -1,0 +1,43 @@
+.newAdoption-content{
+    position: relative;
+    z-index: 1000;
+    padding: 100px 20px !important;
+    margin: 60px 0px !important;
+
+}
+
+.dropdown-menu {
+    height: 100px;
+    overflow-y: scroll;
+  }
+.btn-primary{
+    background-color: #3abb69 !important;
+    border: #0e5224 !important;
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.button-style{
+    background-color: #3abb69 !important;
+    border: #0e5224 !important;
+    color: rgb(255, 255, 255) !important;
+
+}
+.custom-dropdown-button {
+    background-color: #3abb69 !important; /* Override the background color */
+    border-color: #3abb69 !important; /* Override the border color */
+  }
+
+.bubble{
+    
+    background-color: #3abb69;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px !important;
+    min-width: 100px;
+    padding: 10px;
+    top:110%;
+    left: 80%;
+    position: absolute;
+    z-index: 3000; /* Ensure bubble appears above SVG */
+}

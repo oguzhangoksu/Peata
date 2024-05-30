@@ -1,0 +1,16 @@
+.view-content{
+    position: relative;
+    z-index: 1000;
+    padding: 100px 20px !important;
+    margin: 30px 0px !important;
+
+
+}
+
+.imageContainer{
+    width:95.5vw; 
+    height:30vh; 
+    overflow:hidden;
+    text-align:center;
+    background-color:rgb(45, 44, 44);
+}

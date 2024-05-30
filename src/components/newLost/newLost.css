@@ -1,0 +1,42 @@
+.newLost-content{
+    position: relative;
+    z-index: 1000;
+    padding: 100px 20px !important;
+    margin: 60px 0px !important;
+
+}
+
+.AISVG{
+    border: 1px solid black;
+    border-radius: 20% !important;
+    margin-left: 10px !important;
+    width: 40px;
+    height: 40px;
+
+}
+
+.AISVG:hover {
+    transform: translateY(-5px); /* Move the SVG upwards by 5px on hover */
+  }
+.bubble{
+
+    background-color: #3abb69;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px !important;
+    min-width: 100px;
+    padding: 10px;
+    top:110%;
+    left: 80%;
+    position: absolute;
+    z-index: 3000; /* Ensure bubble appears above SVG */
+}
+.dropdown-menu {
+    height: 100px;
+    overflow-y: scroll;
+  }
+
+.dropdownColor{
+    background-color: #30328f !important;
+    color: white;
+}

@@ -1,0 +1,191 @@
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.home-header {
+  padding-top: 80px !important;
+}
+
+.home-section {
+  position: relative;
+  z-index: 1;
+  background-color: var(--clr-bg);
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+
+
+.home-content{
+  padding: 9rem 2rem !important;
+  color: #0BDA51;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
+}
+
+.heading-name {
+  font-size: 5em !important;
+  padding-left: 45px !important;
+}
+
+.main-name {
+  color: #0BDA51 !important;
+}
+.title{
+  color: #0BDA51 !important;
+  font-size: 2.5em !important;
+  font-weight: 600 !important;
+  padding: 20px;
+
+  font-family: Lucida Handwriting, cursive !important;
+
+
+}
+
+.Typewriter__wrapper {
+  font-size: 2em !important;
+  color: #0BDA51 !important;
+  font-weight: 600 !important;
+  padding-left: 25px;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #0BDA51 !important;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    font-size: 2.3em !important;
+    padding-left: 0px !important;
+    text-align: left !important;
+  }
+
+  .heading-name {
+    font-size: 4em !important;
+    padding-left: 0px !important;
+    text-align: left !important;
+  }
+  .type{
+    padding-left: 0px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.3em !important;
+    padding: 0px !important;
+  }
+  .Typewriter__cursor {
+    font-size: 1.5em !important;
+  }
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 2.2em !important;
+    padding-left: 20px !important;
+    text-align: left !important;
+  }
+
+  .heading-name {
+    font-size: 3em !important;
+    padding-left: 20px !important;
+    text-align: left !important;
+  }
+  .type{
+    text-align: left !important;
+  }
+  .Typewriter__wrapper {
+    text-align: center !important;
+    font-size: 1.2em !important;
+    font-weight: 400 !important;
+    position: absolute;
+  }
+
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
+
+.Card-animation{
+  cursor: pointer !important;
+}
+
+.Card-animation:hover {
+  box-shadow: 0px 12px 30px 0px rgb(38, 37, 37) !important;
+  transform:scale(1.1,1.1) !important; /* Move the button upwards on hover */
+  transition: all 800ms;
+
+}
+.SpecialCard-animation{
+  cursor: pointer !important;
+  background-color:#0BDA51 !important;
+}
+.SpecialCard-animation:hover {
+  box-shadow: 0px 12px 30px 0px rgb(38, 37, 37) !important;
+  transform:scale(1.1,1.1) !important; /* Move the button upwards on hover */
+  transition: all 800ms;
+  background-color: #3abb69 !important;
+  
+}
+.card-img {
+  max-height: 250px !important;
+  width: 100% !important; /* Ensure the image fills the entire width of the Card */
+  object-fit: cover !important; /* Maintain aspect ratio while covering the entire container */
+  min-height: 225px !important;
+}
+
+
+.equal-height-row {
+  display: flex;
+  margin: 50px 10px !important;
+  border : 1px solid #3abb69;
+  border-radius: 10px;
+  box-shadow: 0px 12px 30px 0px rgb(38, 37, 37);
+  padding: 20px;
+}
+
+.equal-height-row .col-md-3 {
+  display: flex;
+}
+
+.equal-height-row .col-md-3 .card {
+  flex: 1;
+}
+
+.deneme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center !important;
+}

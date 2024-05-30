@@ -1,0 +1,130 @@
+.navbar {
+    background-color: transparent !important;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    
+}
+.navbar-logo{
+    transition: transform 0.3s ease; /* Transition for smooth animation */
+}
+.navbar-logo:hover {
+    transform: translateY(-5px); /* Move the button upwards on hover */
+    
+}
+
+/*border: 3px solid #00E676 !important;*/
+.animated-button {
+    background-color:#3abb69 !important;
+    border: #0e5224 !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease !important; /* Transition for smooth animation */
+}
+
+.animated-button:hover {
+    transform: translateY(-5px); /* Move the button upwards on hover */
+    background-color: #0e5224 !important;
+}
+.iconStyle {
+    margin-right:3px;
+    color:#ffffff !important;
+}
+.messageBox{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px !important;
+    transition: transform 0.3s ease; /* Transition for smooth animation */
+    border: 2px solid #3abb69 !important;
+    border-radius: 10px !important;
+    width: 100%;
+    min-width: 300px;
+    margin: 10px 0px !important;
+}
+.messageBox:hover {
+    transform: translateY(-5px); /* Move the button upwards on hover */
+    background-color: #b1b3d1 !important;
+}
+
+.messageBoxUnread{
+    background-color: red !important;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px !important;
+    transition: transform 0.3s ease; /* Transition for smooth animation */
+    border-radius: 10px !important;
+    width: 100%;
+    min-width: 300px;
+    margin: 10px 0px !important;
+}
+.messageBoxUnread:hover {
+    transform: translateY(-5px); /* Move the button upwards on hover */
+    border: 2px solid #0BDA51 !important;
+    background-color: #b1b3d1 !important;
+}
+
+.messageBoxNon{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px !important;
+    border-radius: 10px !important;
+    border: 2px solid #0BDA51 !important;
+    width: 100%;
+    min-width: 300px;
+    margin: 10px 0px !important;
+}
+
+.dropdown-menu {
+    min-height: 300px; /* Set the maximum height of the dropdown menu */
+    overflow-y: auto; /* Enable vertical scrolling if the content exceeds the maximum height */
+  }
+
+
+#toggle {
+    width: 50px;
+    display: flex;
+    padding: 5px;
+    background-color: #0BDA51;
+    display: block;
+    border-radius: 1000px;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -10px var(--shadow);
+    transition: background-color 0.3s ease-in;
+  }
+  #toggle .toggle-inner {
+    width: 20px;
+    height: 15px;
+    background-color: var(--clr-bg);
+    border-radius: 1000px;
+    transition: margin-left 0.3s ease-in, background-color 0.3s ease-in;
+  }
+  #toggle .toggle-inner.toggle-active {
+    margin-left: 20px;
+  }
+  .dark-mode #toggle {
+    background-color: var(--clr-txt);
+  }
+  .dark-mode #toggle .toggle-inner {
+    background-color: #0e5224;
+  }
+
+ 
+  

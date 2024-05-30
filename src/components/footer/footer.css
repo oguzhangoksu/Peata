@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 1, 0.45);
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.footer-icon-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: transform 0.3s ease; /* Transition for smooth animation */
+}
+.footer-icon{
+    transition: transform 0.3s ease; /* Transition for smooth animation */
+    color: #0BDA51;;
+}
+.footer-icon:hover {
+    transform: translateY(-5px); /* Move the button upwards on hover */
+}
+    
